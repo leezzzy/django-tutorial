@@ -25,7 +25,7 @@ SECRET_KEY = 'as2ny@ldhh%w1h!j4zn2e&-+&f(hfu9cmsbnan0o-30e95p@0b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'leez.pythonanywhere.com', 'http://localhost:8000/polls/ ']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '.pythonanywhere.com']
 
 
 # Application definition
